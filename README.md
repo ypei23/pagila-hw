@@ -42,4 +42,8 @@ The following picture illustrates the database's structure:
        ```
        $ docker-compose exec pg ./check_answers.sh
        ```
+    1. **Grading:**
+        If all test cases pass, you will receive full credit.
+        For the first failing test case, you will receive -4 points.
+        For each additional failing test case, you will receive -1 point. 
 1. Upload a link to your forked github repo on sakai.
