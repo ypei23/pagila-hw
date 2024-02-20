@@ -7,4 +7,5 @@ SELECT s.first_name, s.last_name, SUM(p.amount) AS sum
 FROM staff s
 JOIN payment p using(staff_id) 
 WHERE p.payment_date >= '2020-01-01' AND p.payment_date < '2020-02-01'
-GROUP BY s.staff_id;  
+GROUP BY s.staff_id
+order by sum;
